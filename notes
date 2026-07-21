@@ -1,14 +1,13 @@
-Basic structure of HTML
-declaration - it tells the type and version of the doc to the browser
-<!DOCTYPE html>
-these acts as root elements
-<html> 
-    head is used to define the title , meta data and third party 
-    <head>
-        <title> html page </title>
 
-    </head>
-    <body>
-        this is where we write the actual content of the page
-    </body>
-</html>
+Table
+rows
+columns -- cells
+tables are defined with table tag
+cells are defined with tr tag
+cells are defined with td tag
+
+Table Attributes
+border
+cell spacing
+cell padding
+width in percentage
