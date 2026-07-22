@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    display behaviour 
+
+    Block Level Elements
+    -- Block level elements are the elements which occupies total space and always start on a new line
+    -- Heading,Paragraph,List,Table,Form
+
+    Inline Line Elements
+    -- Inline elements are the elements which occupies necessary space and doesnt start on a new line
+    -- Span,anchor tag,img tag,input
+
+    div and span
+    -- Division elements which is used to group th<e sections for applying styles
+    <div>
+
+    </div>
+
+    Span
+    -- Span is used to group the text for applying styles
+
+    semantics
+    -- Semantics are used to convey the meaning about the content to the browser and the developer
+    <header>content</header>
+    nav
+    section
+    aside
+    article
+    footer
+
+    forms
+    -- these are used to collect the data from the user and allows the users to submit the data to the server
+    -- forms are defined with form tags
+    1) type
+    -- it controls formified behaviour
+    type="text"
+
+
+    4) Name
+    -- It will carry the data 
+    5) Value
+    -- It predefined Value
+
+
+
+    application
+    
+    <h1>Text1</h1> <h2>text2</h2>
+    <a href="">Link1</a>
+    <a href="">Link2</a> 
+-->
+    <form action="">
+        <label for="inp">Enter Your Name</label>
+        <input type="text" id="inp" name="username" placeholder="enter username" required>
+        <br>
+        <label for="mail">Enter Your Email</label>
+        <input type="email" id="mail" placeholder="enter your mail" required>
+        <br>
+        <label for="phone">Enter Phone Number</label>
+        <input type="number" id="phone" placeholder="enter phone number" required>
+        <br>
+        <label for="">Book Your Slot</label>
+        <input type="datetime-local">
+        <br>
+        <label for="">Upload your Reports</label>
+        <input type="file" name="" id="">
+        <br>
+        <label for="">Enter Your Password</label>
+        <input type="password" name="" id="">
+        <br>
+        <input type="search">
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <button type="reset">Reset</button>
+
+    </form>
+    <form action="" method="post">
+        <!-- Select Your TechStack
+        <br>
+        <input type="radio" name="skillset" id="" value="python">
+        <label for="">Python Full stack</label>
+        <br>
+        <input type="radio" name="skillset" value="Java">
+        <label for="">Java Full Stack</label>
+        <br>
+        <input type="radio" name="skillset" value="mern">
+        <label for="">Mern Stack</label>
+        <br> -->
+        Select Your Skills
+        <br>
+        <input type="checkbox" id="html" name="skill" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="css" name="skill" value="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" id="js" name="skill" value="js">
+        <label for="js">JS</label>
+        <br>
+        <input type="checkbox" required><label for="">I agree to the following terms and conditions</label><br>
+        <label for="">Choose Your Education</label>
+        <select name="education" id="">
+            <option value="btech">Btech</option>
+            <option value="degree">Degree</option>
+        </select><br>
+        <textarea name="" id="" cols="10" rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
