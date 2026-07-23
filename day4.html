@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+    <style>
+        h1{
+            color: goldenrod;
+        }
+        .title{
+            color:brown;
+            color: green;
+            background: yellow;
+            width:30%;
+            height: 700px;
+            padding: 10px 20px 30px 40px;
+            padding: 10px 20px 30px;
+            padding: 10px 20px;
+            border:10px outset blue;
+            border-radius: 20px;
+            margin:20px;
+            margin:20px 10px;
+            margin:20px 10px 30px;
+            margin:20px 10px 30px 40px;
+            display: inline-block;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmd1XVc04LILHrhf5aTFpnEjhu5pL6pkw_W_4_51dZkWdb2bUsd7KVttEYqnneNEnb45voWOPg0vScN20N6s-9_EePkjgkc2c1Wm7x6lk&s=10);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: contain;
+            background-size: 100% 100%;
+            text-align: center;
+
+        }
+        #el1{
+            color: blue;
+
+        }
+        div{
+            background:lightblue;
+            width: 75%;
+            padding:30px;
+            height: 200px;
+            margin: 20px;
+        }
+        span{
+            background: red;
+            /*
+            For Inline Elements width,height and margin ,height top and bottom are not applied
+            display:inline-block;--- it will behave like a inline but
+            take properties like block level
+            */
+            width: 500px;
+            height: 100px;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div>Block Level<span>Element </span></div>
+    <h1 class="title">Inline Content</h1>
+    <h1 class="title">Inline Content</h1>
+    <h1 class="title">Inline Content</h1>
+    <h1 class="title">Inline Content</h1>
+    <h1 class="title" id="el1">Inline Content</h1>
+    <h1 class="title">Inline Content</h1>
+    <h1 class="title">Inline Content</h1>
+</body>
+</html>
+<!-- CSS  - Caqscading style sheets
+ Cascading - flowing
+ Styles - Properties
+ Sheets - Doc
+  
+ It is used to describe the presentation of a html document it deals with the 
+ colors,text,fonts,backgrounds,animations,layouts and media queries
+
+ How to insert css
+ 1) Inline css
+ -- styles are added to the html element itself by using style atributes
+ <h1 style='color:red;'>Inline Content</h1>
+
+ 2) Internal CSS
+ -- Styles are added to the html  document by using style tags in head section
+ <style>
+   -----------
+ </style>
+-- Selectors :
+-- It is used to target the html elements for applying styles
+   Types of selectors:
+   1) Simple Selectors
+      a)  Element selector or tagname selector
+        -- Styles will be applied based on a element
+      b)  Class Selector 
+        --  It is denoted with .classname
+        --  It is used to apply styles to the multiple elements
+        .title{
+        color:grey;
+        } 
+        <h1 class="ttile">First</h1>
+        <h2 class="ttile">First</h2>
+        <h3 class="ttile">First</h3>
+      c)  id selector
+        -- Denoted by #idname
+      
+      High Specificity
+      1) #id
+      2) .class
+      3) tagname
+
+
+   2) Combinators
+   3) Psuedo Class
+   4) Attributes
+3) External CSS
+-- Here the styles are defined in a external css with .css extension
+   linked with a link tag
+
+   High Specificity - high Preceedency
+   Inline has high Specificity
+   Based on how we define - preferred internal than external
+
+  Box Model
+  --
+  1) Content
+   --  width in %
+   --  height in px
+  2) Padding
+   -- Spaces Around the content
+      padding:20px;
+      padding: 10px 20px 30px 40px;
+               top right down left
+      padding: 10px  20px       30px;
+                top  right/left down 
+      padding: 10 px    20px
+               top/down  right/left
+  3) Border
+   -- It is line around the padding
+      border:10px outset blue;
+      border-radius:50%;
+       dotted
+       dash
+       double 
+       inset
+       outset
+       ridge
+       groove 
+       None
+
+  4) Margin
+   -- 
+ -->
